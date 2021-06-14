@@ -16,7 +16,8 @@ class ProductItems extends StatelessWidget {
         _createItem(
             'assets/images/wopper_with_cheese.png', 'Воппер с сыром', '249 ₽'),
         _createItem(
-            'assets/images/combo_on_two_with_cheesburger.png', 'Комбо на двоих с Чизбургером', '399 ₽'),
+            'assets/images/combo_on_two_with_cheesburger.png', 
+            'Комбо на двоих с Чизбургером', '399 ₽'),
         _createItem(
             'assets/images/king_nuggets.png', 'Комбо с Воппером Дж.', '119 ₽'),
        _createItem(
@@ -33,7 +34,8 @@ class ProductItems extends StatelessWidget {
 Widget _createItem(String image, String title, String price) {
   return Container(
     decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(20), color: Colors.grey[850]),
+        borderRadius: BorderRadius.circular(20), 
+        color: Colors.grey[850]),
     margin: EdgeInsets.all(10),
     child: Column(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -42,7 +44,8 @@ Widget _createItem(String image, String title, String price) {
       children: [
         ClipRRect(
             borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(20), topRight: Radius.circular(20)),
+                topLeft: Radius.circular(20), 
+                topRight: Radius.circular(20)),
             child: Image.asset(
               image,
               fit: BoxFit.cover,
@@ -50,7 +53,9 @@ Widget _createItem(String image, String title, String price) {
             )),
         Padding(
           padding: EdgeInsets.fromLTRB(14, 20, 0, 14),
-          child: Text(title, textAlign: TextAlign.start,
+          child: Text(
+            title, 
+          textAlign: TextAlign.start,
           style: TextStyle(
             color:Colors.white,
             fontSize: 18 ),)
@@ -58,7 +63,9 @@ Widget _createItem(String image, String title, String price) {
         Padding(
         
           padding: EdgeInsets.fromLTRB(14, 0, 0, 30),
-          child: Text(price, textAlign: TextAlign.start,
+          child: Text(
+            price, 
+          textAlign: TextAlign.start,
           style: TextStyle(
             color:Colors.white,
             fontSize: 18 ),)

@@ -17,7 +17,9 @@ PreferredSizeWidget actionBar = AppBar(
   title: Text(
     _title, // data
     style: TextStyle(
-        color: Colors.white, fontSize: 24, fontWeight: FontWeight.w500),
+        color: Colors.white, 
+        fontSize: 24, 
+        fontWeight: FontWeight.w500),
   ),
   actions: [
     Padding(
