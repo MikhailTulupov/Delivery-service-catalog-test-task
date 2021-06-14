@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:test_task_layout/src/widgets/grid_list_items.dart';
+import 'package:test_task_layout/src/widgets/product_items.dart';
 import 'package:test_task_layout/src/widgets/menu_nav.dart';
 
 // body widget app
