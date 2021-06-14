@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:test_task_layout/src/values/dimens.dart';
 
 // ignore: must_be_immutable
 class MenuCategory extends StatelessWidget {
@@ -51,7 +50,7 @@ class MenuCategory extends StatelessWidget {
         menuCategories[index],
         style: TextStyle(
         color: _tsColor, 
-        fontSize: font_size_small_18
+        fontSize: 18
         ),
       ),
     );
